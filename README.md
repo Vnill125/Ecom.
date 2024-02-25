@@ -2,7 +2,6 @@ To start project, create Tailwind Theme:
 
 1. Add tailwind to your application in settings.py:
   INSTALLED_APPS = [
-  # other Django apps
   'tailwind',
 ]
 
@@ -10,7 +9,6 @@ To start project, create Tailwind Theme:
 
 3. Add your newly created 'theme' app to INSTALLED_APPS in settings.py:
   INSTALLED_APPS = [
-  # other Django apps
   'tailwind',
   'theme'
 ]
